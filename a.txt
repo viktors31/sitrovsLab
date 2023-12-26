@@ -1,0 +1,28 @@
+[
+  {
+    "monthCount": 36,
+    "creditAmount": 3600.0,
+    "remainingCreditAmount": 3600.0,
+    "monthlyPayment": 100.0,
+    "interestRate": 17.16106292753063,
+    "employee": {},
+    "paymentAccount": {
+      "balance": 6872.674705382483,
+      "id": 49
+    },
+    "id": 98
+  },
+  {
+    "monthCount": 36,
+    "creditAmount": 3600.0,
+    "remainingCreditAmount": 3600.0,
+    "monthlyPayment": 100.0,
+    "interestRate": 17.16106292753063,
+    "employee": {},
+    "paymentAccount": {
+      "balance": 6872.674705382483,
+      "id": 49
+    },
+    "id": 99
+  }
+]
