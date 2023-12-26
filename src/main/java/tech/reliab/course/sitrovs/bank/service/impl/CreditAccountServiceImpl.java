@@ -1,13 +1,13 @@
-package tech.reliab.course.nikolotovai.bank.service.impl;
+package tech.reliab.course.sitrovs.bank.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import tech.reliab.course.nikolotovai.bank.entity.CreditAccount;
-import tech.reliab.course.nikolotovai.bank.service.CreditAccountService;
-import tech.reliab.course.nikolotovai.bank.service.UserService;
+import tech.reliab.course.sitrovs.bank.entity.CreditAccount;
+import tech.reliab.course.sitrovs.bank.service.CreditAccountService;
+import tech.reliab.course.sitrovs.bank.service.UserService;
 
 public class CreditAccountServiceImpl implements CreditAccountService {
   private final Map<Integer, CreditAccount> creditAccountsTable = new HashMap<>();

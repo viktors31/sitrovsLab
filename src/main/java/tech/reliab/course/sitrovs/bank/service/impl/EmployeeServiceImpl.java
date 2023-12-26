@@ -1,14 +1,14 @@
-package tech.reliab.course.nikolotovai.bank.service.impl;
+package tech.reliab.course.sitrovs.bank.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import tech.reliab.course.nikolotovai.bank.entity.BankOffice;
-import tech.reliab.course.nikolotovai.bank.entity.Employee;
-import tech.reliab.course.nikolotovai.bank.service.BankOfficeService;
-import tech.reliab.course.nikolotovai.bank.service.EmployeeService;
+import tech.reliab.course.sitrovs.bank.entity.BankOffice;
+import tech.reliab.course.sitrovs.bank.entity.Employee;
+import tech.reliab.course.sitrovs.bank.service.BankOfficeService;
+import tech.reliab.course.sitrovs.bank.service.EmployeeService;
 
 public class EmployeeServiceImpl implements EmployeeService {
   private final Map<Integer, Employee> employeesTable = new HashMap<>();

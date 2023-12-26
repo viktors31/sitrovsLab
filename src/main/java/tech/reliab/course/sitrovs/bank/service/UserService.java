@@ -1,10 +1,10 @@
-package tech.reliab.course.nikolotovai.bank.service;
+package tech.reliab.course.sitrovs.bank.service;
 
 import java.util.List;
 
-import tech.reliab.course.nikolotovai.bank.entity.CreditAccount;
-import tech.reliab.course.nikolotovai.bank.entity.PaymentAccount;
-import tech.reliab.course.nikolotovai.bank.entity.User;
+import tech.reliab.course.sitrovs.bank.entity.CreditAccount;
+import tech.reliab.course.sitrovs.bank.entity.PaymentAccount;
+import tech.reliab.course.sitrovs.bank.entity.User;
 
 public interface UserService {
   User create(User user);

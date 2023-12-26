@@ -1,13 +1,13 @@
-package tech.reliab.course.nikolotovai.bank.service.impl;
+package tech.reliab.course.sitrovs.bank.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import tech.reliab.course.nikolotovai.bank.entity.BankAtm;
-import tech.reliab.course.nikolotovai.bank.service.AtmService;
-import tech.reliab.course.nikolotovai.bank.service.BankOfficeService;
+import tech.reliab.course.sitrovs.bank.entity.BankAtm;
+import tech.reliab.course.sitrovs.bank.service.AtmService;
+import tech.reliab.course.sitrovs.bank.service.BankOfficeService;
 
 public class AtmServiceImpl implements AtmService {
   private final Map<Integer, BankAtm> atmsTable = new HashMap<>();

@@ -1,4 +1,4 @@
-package tech.reliab.course.nikolotovai.bank.service.impl;
+package tech.reliab.course.sitrovs.bank.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,16 +6,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import static tech.reliab.course.nikolotovai.bank.utils.Constants.*;
+import static tech.reliab.course.sitrovs.bank.utils.Constants.*;
 
-import tech.reliab.course.nikolotovai.bank.entity.Bank;
-import tech.reliab.course.nikolotovai.bank.entity.BankOffice;
-import tech.reliab.course.nikolotovai.bank.entity.CreditAccount;
-import tech.reliab.course.nikolotovai.bank.entity.Employee;
-import tech.reliab.course.nikolotovai.bank.entity.User;
-import tech.reliab.course.nikolotovai.bank.service.BankOfficeService;
-import tech.reliab.course.nikolotovai.bank.service.BankService;
-import tech.reliab.course.nikolotovai.bank.service.UserService;
+import tech.reliab.course.sitrovs.bank.entity.Bank;
+import tech.reliab.course.sitrovs.bank.entity.BankOffice;
+import tech.reliab.course.sitrovs.bank.entity.CreditAccount;
+import tech.reliab.course.sitrovs.bank.entity.Employee;
+import tech.reliab.course.sitrovs.bank.entity.User;
+import tech.reliab.course.sitrovs.bank.service.BankOfficeService;
+import tech.reliab.course.sitrovs.bank.service.BankService;
+import tech.reliab.course.sitrovs.bank.service.UserService;
 
 public class BankServiceImpl implements BankService {
   private final Map<Integer, Bank> banksTable = new HashMap<>();

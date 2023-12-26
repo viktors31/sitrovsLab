@@ -1,4 +1,4 @@
-package tech.reliab.course.nikolotovai.bank.utils;
+package tech.reliab.course.sitrovs.bank.utils;
 
 import java.util.ArrayList;
 import java.util.List;

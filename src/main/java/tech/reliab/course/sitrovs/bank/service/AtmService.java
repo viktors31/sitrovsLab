@@ -1,8 +1,8 @@
-package tech.reliab.course.nikolotovai.bank.service;
+package tech.reliab.course.sitrovs.bank.service;
 
 import java.util.List;
 
-import tech.reliab.course.nikolotovai.bank.entity.BankAtm;
+import tech.reliab.course.sitrovs.bank.entity.BankAtm;
 
 public interface AtmService {
   BankAtm create(BankAtm bankAtm);
